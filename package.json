@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "APITests": "npx playwright test --grep @API",
+    "WebTests": "npx playwright test --grep @Web",
+    "ChromeNewCofig": "npx playwright test CustomTest.spec.js --config playwright.config1.js --project=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.20"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "allure-playwright": "^2.15.0",
+    "exceljs": "^4.4.0"
+  }
+}
