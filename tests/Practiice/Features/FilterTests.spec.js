@@ -9,6 +9,6 @@ const { test } = require('@playwright/test');
 //   // Your test code
 // }).tag('sanity');
 
-test('Regression Test', async ({ page }) => {
-  // Your test code
-}).tag('regression');
+// test('Regression Test', async ({ page }) => {
+//   // Your test code
+// }).tag('regression');
